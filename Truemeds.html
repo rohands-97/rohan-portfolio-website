@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Truemeds purchase flow revamp case study by Rohan Das.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Truemeds Purchase Flow Revamp — Rohan Das">
+  <meta property="og:description" content="Introduced a membership program for Truemeds to reduce cart dropoffs and improve customer retention.">
+  <meta property="og:type" content="website">
+  <title>Truemeds Purchase Flow Revamp — Rohan Das</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%2355d900'/%3E%3Ctext x='50' y='62' text-anchor='middle' font-size='44' font-family='Arial, sans-serif' font-weight='800' fill='%23080808'%3ERD%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="truemeds-case-study-page">
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Rohan Das home">
+        <img class="avatar" src="Assets/Myavatar.png" alt="Illustrated avatar of Rohan Das">
+      </a>
+
+      <div class="nav-links" aria-label="Main links">
+        <a href="index.html#projects">Projects</a>
+        <a href="about.html">About Me</a>
+        <a href="https://drive.google.com/file/d/1MdEswHuMMMlP4IrXzcA9ZIBG7DaPkbhk/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="toggle-icon sun" aria-hidden="true">☀</span>
+        <span class="toggle-icon moon" aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="truemeds-page">
+    <section class="truemeds-hero" aria-labelledby="truemeds-hero-title">
+      <div class="truemeds-hero-inner">
+        <div class="truemeds-hero-copy">
+          <img class="truemeds-logo" src="Assets/Truemeds/Truemeds logo.png" alt="Truemeds">
+          <h1 id="truemeds-hero-title">Purchase Flow Revamp</h1>
+          <p>Introduced a membership program for Truemeds to reduce cart dropoffs and improve customer retention.</p>
+          <div class="truemeds-author">By : Rohan Das</div>
+        </div>
+
+        <div class="truemeds-hero-visual" aria-hidden="true">
+          <img src="Assets/Truemeds/Hero_img.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="truemeds-context" aria-labelledby="truemeds-context-title">
+      <div class="truemeds-context-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-context-title">Context</h2>
+        </div>
+
+        <article class="truemeds-context-block">
+          <h3>About Truemeds</h3>
+          <p>Truemeds is an Indian online pharmacy platform that helps users save upto 51% on medicine bills through discounts and affordable alternatives to branded medicines. Users can upload prescriptions, compare medicine options, and get medicines delivered to their doorstep.</p>
+        </article>
+
+        <article class="truemeds-context-block">
+          <h3>Who are the users ?</h3>
+          <p>Truemeds users are mainly people who regularly buy medicines online for themselves or their family members and are highly conscious about savings, trust, and convenience. Many of them are repeat medicine buyers, such as patients with chronic conditions, caregivers ordering for parents, and budget-conscious users who compare prices before placing an order.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="truemeds-problem-discovery" aria-labelledby="truemeds-problem-discovery-title">
+      <div class="truemeds-problem-discovery-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-problem-discovery-title">The Problem Discovery</h2>
+        </div>
+
+        <p class="truemeds-problem-intro">While purchasing medicine on Truemeds, I noticed that the final cart price was much higher than what I previously checked on product page. This change in price was mainly due to delivery charges.</p>
+
+        <img class="truemeds-live-app-image" src="Assets/Truemeds/Live app_img 1.png" alt="Live app reference showing the product page price before delivery charges">
+
+        <img class="truemeds-live-app-image" src="Assets/Truemeds/Live app_img 2.png" alt="Live app reference showing the cart price increasing due to delivery charges">
+
+        <article class="truemeds-problem-box" aria-labelledby="truemeds-problem-box-title">
+          <div class="truemeds-problem-box-heading">
+            <img src="Assets/Truemeds/Icons/Warning.svg" alt="" aria-hidden="true">
+            <h3 id="truemeds-problem-box-title">The Problem</h3>
+          </div>
+          <p>As most of the users of truemeds are repeat medicine buyers and conscious about savings, this delivery charges can create hesitation at the final step because the feeling of savings reduces just before placing the order.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="truemeds-competitive-analysis" aria-labelledby="truemeds-competitive-title">
+      <div class="truemeds-competitive-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-competitive-title">Competitive Analysis</h2>
+        </div>
+
+        <p class="truemeds-section-intro">To understand how other online pharmacy platforms handle this issue. I analyzed 4 major competitors: Apollo 24/7, Netmeds, Tata 1mg, and PharmEasy.</p>
+
+        <div class="truemeds-findings-panel" aria-labelledby="truemeds-findings-title">
+          <h3 id="truemeds-findings-title">Key Findings</h3>
+
+          <div class="truemeds-findings-grid">
+            <article class="truemeds-finding-card">
+              <h4>Membership is an Expected Feature.</h4>
+              <p>Most major competitors offer membership plans, making it a common feature in online pharmacy apps.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Free delivery drives value</h4>
+              <p>Free delivery is the most common benefit across all competitor platforms.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Affordable plans reduce friction</h4>
+              <p>Competitor have priced their membership low which makes it easier for their user to try the plan.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Cart is the right promotion point</h4>
+              <p>Competitors promote membership near checkout, where users immediately notice delivery charges and savings.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="truemeds-key-gap-band">
+        <div class="truemeds-key-gap-frame">
+          <h3>Key Gap</h3>
+          <p class="truemeds-key-gap-lead">Truemeds lacks a membership program unlike its competitors.</p>
+          <p>Since the primary goal of the platform is to help user save extra on medicine bills, a membership program can make savings feel more predictable through benefits like free delivery, cashback etc. This can further reduce cart hesitation due to delivery charges and encourage repeat purchases.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="truemeds-benefit-prioritization" aria-labelledby="truemeds-benefit-title">
+      <div class="truemeds-benefit-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-benefit-title">Benefit Prioritization</h2>
+        </div>
+
+        <p class="truemeds-section-intro">I prioritized membership benefits based on three key factors on user : Savings impact, Purchase confidence &amp; Repeat order potential. The final benefits were selected by comparing user needs with common patterns found in leading online pharmacy membership plans.</p>
+
+        <img class="truemeds-benefit-image" src="Assets/Truemeds/Benefit prioritization.png" alt="Benefit prioritization showing delivery, cashback, sale access, and support benefits connected by dotted lines">
+      </div>
+    </section>
+
+    <section class="truemeds-ui-creation-section" aria-labelledby="truemeds-ui-creation-title">
+      <div class="truemeds-ui-creation-inner">
+        <article class="truemeds-challenge-box" aria-labelledby="truemeds-challenge-title">
+          <div class="truemeds-challenge-heading">
+            <svg class="truemeds-challenge-icon" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+              <path d="M40.6999 32.3281L25.6694 6.22543C25.2938 5.58592 24.7576 5.05568 24.114 4.68725C23.4703 4.31882 22.7415 4.125 21.9999 4.125C21.2582 4.125 20.5295 4.31882 19.8858 4.68725C19.2422 5.05568 18.706 5.58592 18.3304 6.22543L3.29989 32.3281C2.9385 32.9466 2.74805 33.6501 2.74805 34.3665C2.74805 35.0829 2.9385 35.7864 3.29989 36.405C3.67068 37.0483 4.20596 37.5815 4.85082 37.9496C5.49568 38.3178 6.22689 38.5078 6.96942 38.5001H37.0304C37.7723 38.5072 38.5028 38.3169 39.147 37.9488C39.7912 37.5806 40.326 37.0478 40.6965 36.405C41.0584 35.7867 41.2494 35.0834 41.25 34.367C41.2506 33.6506 41.0608 32.9469 40.6999 32.3281ZM20.6249 17.8751C20.6249 17.5104 20.7698 17.1607 21.0276 16.9028C21.2855 16.645 21.6352 16.5001 21.9999 16.5001C22.3646 16.5001 22.7143 16.645 22.9722 16.9028C23.23 17.1607 23.3749 17.5104 23.3749 17.8751V24.7501C23.3749 25.1148 23.23 25.4645 22.9722 25.7224C22.7143 25.9802 22.3646 26.1251 21.9999 26.1251C21.6352 26.1251 21.2855 25.9802 21.0276 25.7224C20.7698 25.4645 20.6249 25.1148 20.6249 24.7501V17.8751ZM21.9999 33.0001C21.592 33.0001 21.1932 32.8791 20.854 32.6525C20.5149 32.4259 20.2505 32.1038 20.0944 31.7269C19.9383 31.35 19.8974 30.9353 19.977 30.5352C20.0566 30.1352 20.253 29.7677 20.5415 29.4792C20.8299 29.1908 21.1974 28.9943 21.5975 28.9147C21.9976 28.8352 22.4123 28.876 22.7892 29.0321C23.166 29.1882 23.4882 29.4526 23.7148 29.7917C23.9414 30.1309 24.0624 30.5297 24.0624 30.9376C24.0624 31.4846 23.8451 32.0092 23.4583 32.396C23.0715 32.7828 22.5469 33.0001 21.9999 33.0001Z"></path>
+            </svg>
+            <h3 id="truemeds-challenge-title">The Challenge</h3>
+          </div>
+          <p>How to introduce the membership plan to our users so that the users feel they are saving more and get encouraged to opt the membership plan?</p>
+        </article>
+
+        <div class="truemeds-section-title truemeds-ui-creation-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-ui-creation-title">Solution</h2>
+        </div>
+
+        <p class="truemeds-section-intro">Instead of creating only a separate membership page, I decided to introduce membership across the purchase flow. This helps users notice the benefit exactly when they are thinking about price, delivery charges, and final savings. The focus was not just to introduce the plan, but to help users understand why the plan is useful at the right moment.</p>
+      </div>
+
+      <div class="truemeds-ui-showcase" aria-label="UI creation placements across the purchase flow">
+        <img class="truemeds-placement-image" src="Assets/Truemeds/Placement 1.png" alt="Placement 1: Product details screen membership card">
+
+        <div class="truemeds-placement-two" aria-label="Placement 2: Cart screen membership bottom sheet">
+          <img class="truemeds-placement-two-card" src="Assets/Truemeds/Placement 2_frame.png" alt="">
+          <div class="truemeds-phone-mockup truemeds-placement-two-phone placement-phone-video-mockup">
+            <img class="truemeds-phone-frame truemeds-placement-two-frame placement-phone-frame" src="Assets/Truemeds/Uicreation_frame 2.png" alt="">
+            <div class="placement-phone-screen-video">
+              <video src="Assets/Truemeds/Bottomsheet.mov" autoplay muted loop playsinline preload="auto" aria-label="Cart screen bottom sheet prototype"></video>
+            </div>
+            <img class="placement-dynamic-island" src="Assets/Truemeds/Icons/dynamic-island.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+
+        <img class="truemeds-placement-image" src="Assets/Truemeds/Placement 3.png" alt="Placement 3: Bill details bottom sheet membership card">
+      </div>
+    </section>
+
+    <section class="truemeds-user-testing" aria-labelledby="truemeds-user-testing-title">
+      <div class="truemeds-user-testing-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-user-testing-title">User Testing</h2>
+        </div>
+
+        <p class="truemeds-section-intro">To validate the redesigned purchase flow, I tested it with 4 participants who regularly order medicines online. The goal was to understand whether the membership savings were clear to users and whether they would choose the membership plan.</p>
+
+        <div class="truemeds-testing-task" aria-label="User testing task summary">
+          <div class="truemeds-testing-stats">
+            <article class="truemeds-testing-stat">
+              <strong class="truemeds-testing-stat-green">1</strong>
+              <span>Key task</span>
+            </article>
+
+            <article class="truemeds-testing-stat">
+              <strong class="truemeds-testing-stat-pink">8</strong>
+              <span>Participants</span>
+            </article>
+
+            <article class="truemeds-testing-stat">
+              <strong class="truemeds-testing-stat-blue">30 <em>mins</em></strong>
+              <span>Duration</span>
+            </article>
+          </div>
+
+          <div class="truemeds-testing-connector" aria-hidden="true">
+            <svg viewBox="0 0 500 200" preserveAspectRatio="none" focusable="false">
+              <path d="M1 0 V183 Q1 199 17 199 H500"></path>
+            </svg>
+            <img src="Assets/Truemeds/Icons/Annotation ring.svg" alt="">
+          </div>
+
+          <article class="truemeds-testing-task-box" aria-labelledby="truemeds-testing-task-title">
+            <div class="truemeds-testing-task-heading">
+              <img src="Assets/Truemeds/Icons/Target.svg" alt="" aria-hidden="true">
+              <h3 id="truemeds-testing-task-title">The Task</h3>
+            </div>
+            <p>Buy this medicine from Truemeds and check if there is any way to save more before placing the order?</p>
+          </article>
+        </div>
+
+        <div class="truemeds-findings-panel truemeds-user-testing-findings" aria-labelledby="truemeds-user-testing-findings-title">
+          <h3 id="truemeds-user-testing-findings-title">Key Findings</h3>
+
+          <div class="truemeds-findings-grid">
+            <article class="truemeds-finding-card">
+              <h4>Membership was explored from cart page.</h4>
+              <p>Most participants clicked on the membership card from the cart screen to check its benefits and pricing.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Bottom sheet did not prioritize price.</h4>
+              <p>Participants saw the benefits first, but the price and savings comparison were not clear enough to scan quickly.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Product page membership card was distracting.</h4>
+              <p>During the task, the product page card pulled attention away from the main action i.e medicine price and add-to-cart.</p>
+            </article>
+
+            <article class="truemeds-finding-card">
+              <h4>Participants mentioned it’s value for money.</h4>
+              <p>After seeing the membership price and benefits, participants understood the long-term savings and showed interest in buying the plan.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="truemeds-ui-iterations" aria-labelledby="truemeds-ui-iterations-title">
+      <div class="truemeds-ui-iterations-inner">
+        <div class="truemeds-section-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-ui-iterations-title">UI Iterations</h2>
+        </div>
+
+        <p class="truemeds-section-intro">Based on the insights from user testing, I made iterations to the membership card on the product page and the benefit bottom sheet on the cart page.</p>
+
+        <img class="truemeds-iteration-image" src="Assets/Truemeds/Iteration 1.png" alt="Iteration 1 showing product page membership card before and after">
+
+        <img class="truemeds-iteration-image" src="Assets/Truemeds/Iteration 2.png" alt="Iteration 2 showing bottom sheet pricing before and after">
+      </div>
+    </section>
+
+    <section class="truemeds-impact-takeaways" aria-labelledby="truemeds-takeaways-title">
+      <div class="truemeds-impact-takeaways-inner">
+        <article class="truemeds-impact-box" aria-labelledby="truemeds-impact-title">
+          <div class="truemeds-impact-heading">
+            <img src="Assets/Truemeds/Icons/TrendUp.svg" alt="" aria-hidden="true">
+            <h3 id="truemeds-impact-title">The Impact</h3>
+          </div>
+          <p>In usability testing, all participants understood the value of the membership and showed intent to purchase the subscription. This indicates strong potential to reduce cart drop-off and improve customer retention, which can be further validated after product launch.</p>
+        </article>
+
+        <div class="truemeds-section-title truemeds-takeaways-title">
+          <span aria-hidden="true"></span>
+          <h2 id="truemeds-takeaways-title">Takeways</h2>
+        </div>
+
+        <div class="truemeds-takeaways-copy">
+          <p>This was my first solo project as part of my IIM Skills bootcamp, and it helped me understand how product design decisions can connect user needs with business goals.</p>
+          <p>• I learned how to test my design assumptions with users and convert feedback into clear iterations.</p>
+          <p>• I also learned how small moments in the purchase flow, like delivery charges and savings nudges, can strongly influence user confidence.</p>
+          <p>• This project helped me improve my UI decision-making and gave me hands-on experience working with design systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="eventmate-back-top-row">
+      <div class="container eventmate-final-container">
+        <a class="eventmate-back-top" href="#top" aria-label="Back to top">Back to Top ↑</a>
+      </div>
+    </div>
+
+    <section class="contact section-padding" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <h1 id="contact-title">Thanks for reaching the bottom of this page.</h1>
+        <h2>Have an exciting opportunity or idea? I’d love to hear from you. Please reach out to me at</h2>
+        <span class="contact-arrow" aria-hidden="true">⌄</span>
+
+        <div class="contact-list" aria-label="Contact details">
+          <a class="contact-pill" href="mailto:rohandas3354@gmail.com">
+            <img class="contact-icon" src="Assets/Icon/Mail.png" alt="" aria-hidden="true">
+            <span>rohandas3354@gmail.com</span>
+          </a>
+
+          <div class="contact-pill phone-pill">
+            <a href="tel:+919093769095">
+              <img class="contact-icon" src="Assets/Icon/call.png" alt="" aria-hidden="true">
+              <span>+91 9093769095</span>
+            </a>
+            <button class="copy-btn" type="button" data-phone="+91 9093769095" aria-label="Copy phone number">Copy</button>
+          </div>
+
+          <div class="contact-socials">
+            <a class="social-btn linkedin" href="http://www.linkedin.com/in/rohandas97" target="_blank" rel="noopener noreferrer" aria-label="Visit Rohan Das on LinkedIn">in</a>
+            <a class="social-btn behance" href="https://www.behance.net/rohandas95" target="_blank" rel="noopener noreferrer" aria-label="Visit Rohan Das on Behance">Be</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Rohan Das. Product Designer.</p>
+    </div>
+  </footer>
+
+  <script>
+    const root = document.documentElement;
+    root.dataset.theme = "light";
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", "#ffffff");
+
+    const themeToggle = document.querySelector(".theme-toggle");
+    if (themeToggle) {
+      themeToggle.setAttribute("aria-pressed", "false");
+    }
+
+    const updateTestingConnector = () => {
+      const connector = document.querySelector(".truemeds-testing-connector");
+      if (!connector) return;
+
+      const svg = connector.querySelector("svg");
+      const path = connector.querySelector("path");
+      if (!svg || !path) return;
+
+      const width = Math.max(0, Math.round(connector.clientWidth));
+      const height = Math.max(0, Math.round(connector.clientHeight));
+      const radius = 16;
+
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      path.setAttribute("d", `M1 0 V${height - radius} Q1 ${height - 1} ${radius + 1} ${height - 1} H${width}`);
+    };
+
+    updateTestingConnector();
+    window.addEventListener("resize", updateTestingConnector);
+
+    const copyButton = document.querySelector(".copy-btn");
+    if (copyButton) {
+      copyButton.addEventListener("click", async () => {
+        const phone = copyButton.dataset.phone;
+        try {
+          await navigator.clipboard.writeText(phone);
+          copyButton.textContent = "Copied";
+          setTimeout(() => {
+            copyButton.textContent = "Copy";
+          }, 1600);
+        } catch (error) {
+          copyButton.textContent = phone;
+        }
+      });
+    }
+
+    const backToTop = document.querySelector(".eventmate-back-top");
+    if (backToTop) {
+      backToTop.addEventListener("click", (event) => {
+        event.preventDefault();
+        const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: reduceMotion ? "auto" : "smooth"
+        });
+      });
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
