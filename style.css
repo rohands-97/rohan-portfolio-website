@@ -1849,6 +1849,10 @@ button {
   color: #900b09;
 }
 
+.eventmate-design-section {
+  padding-top: 0;
+}
+
 .eventmate-design-showcase {
   padding: clamp(40px, 4vw, 60px);
   border-radius: 32px;
@@ -1884,6 +1888,10 @@ button {
 @media (max-width: 760px) {
   .eventmate-phase {
     padding: 64px 0;
+  }
+
+  .eventmate-design-section {
+    padding-top: 0;
   }
 
   .eventmate-case-container {
